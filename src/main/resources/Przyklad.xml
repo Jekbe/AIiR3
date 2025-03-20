@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filmoteka>
+    <aktorzy>
+        <aktor id="1">
+            <nazwisko>Beckinsale</nazwisko>
+            <imie>Kate</imie>
+            <plec>Kobieta</plec>
+            <data_urodzenia>1973-07-26</data_urodzenia>
+        </aktor>
+        <aktor id="2">
+            <nazwisko>Speedman</nazwisko>
+            <imie>Scott</imie>
+            <plec>Mężczyzna</plec>
+            <data_urodzenia>1975-09-01</data_urodzenia>
+        </aktor>
+    </aktorzy>
+    <filmy>
+        <film id="1">
+            <nazwa>Underworld</nazwa>
+            <rok_premiery>2003</rok_premiery>
+            <gatunki>
+                <gatunek>Horror</gatunek>
+                <gatunek>Akcja</gatunek>
+            </gatunki>
+            <obsada>
+                <rola idAktora="1">Selene</rola>
+                <rola idAktora="2">Michael Corvin</rola>
+            </obsada>
+        </film>
+    </filmy>
+</filmoteka>

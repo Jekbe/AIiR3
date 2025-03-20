@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibliotekaGier>
+    <technologie>
+        <technologia id="1">
+            <nazwa>CryEngine</nazwa>
+            <typ>Silnik gry</typ>
+        </technologia>
+        <technologia id="2">
+            <nazwa>Source Engine</nazwa>
+            <typ>Silnik gry</typ>
+        </technologia>
+        <technologia id="3">
+            <nazwa>4A Engine</nazwa>
+            <typ>Silnik gry</typ>
+        </technologia>
+        <technologia id="4">
+            <nazwa>Ray Tracing</nazwa>
+            <typ>Technologia oświetlenia</typ>
+        </technologia>
+        <technologia id="5">
+            <nazwa>Dynamiczne cienie</nazwa>
+            <typ>Technologia cieniowania</typ>
+        </technologia>
+        <technologia id="6">
+            <nazwa>Fizyka Havok</nazwa>
+            <typ>Silnik fizyki</typ>
+        </technologia>
+        <technologia id="7">
+            <nazwa>Symulacja wody</nazwa>
+            <typ>Fizyka</typ>
+        </technologia>
+        <technologia id="8">
+            <nazwa>Zaawansowana destrukcja otoczenia</nazwa>
+            <typ>System destrukcji</typ>
+        </technologia>
+        <technologia id="9">
+            <nazwa>Voxel-Based Global Illumination</nazwa>
+            <typ>System oświetlenia</typ>
+        </technologia>
+        <technologia id="10">
+            <nazwa>Zaawansowana AI przeciwników</nazwa>
+            <typ>Sztuczna inteligencja</typ>
+        </technologia>
+    </technologie>
+
+    <gry>
+        <gra id="1">
+            <nazwa>Crysis Remastered</nazwa>
+            <rok_premiery>2020</rok_premiery>
+            <gatunki>
+                <gatunek>FPS</gatunek>
+                <gatunek>Akcja</gatunek>
+            </gatunki>
+            <technologieUżywane>
+                <technologia idTechnologii="1"/>
+                <technologia idTechnologii="4"/>
+                <technologia idTechnologii="5"/>
+                <technologia idTechnologii="6"/>
+                <technologia idTechnologii="7"/>
+            </technologieUżywane>
+        </gra>
+
+        <gra id="2">
+            <nazwa>Metro Exodus</nazwa>
+            <rok_premiery>2019</rok_premiery>
+            <gatunki>
+                <gatunek>FPS</gatunek>
+                <gatunek>Survival</gatunek>
+            </gatunki>
+            <technologieUżywane>
+                <technologia idTechnologii="3"/>
+                <technologia idTechnologii="4"/>
+                <technologia idTechnologii="5"/>
+                <technologia idTechnologii="8"/>
+                <technologia idTechnologii="9"/>
+            </technologieUżywane>
+        </gra>
+
+        <gra id="3">
+            <nazwa>Half-Life 2</nazwa>
+            <rok_premiery>2004</rok_premiery>
+            <gatunki>
+                <gatunek>FPS</gatunek>
+                <gatunek>Przygodowa</gatunek>
+            </gatunki>
+            <technologieUżywane>
+                <technologia idTechnologii="2"/>
+                <technologia idTechnologii="5"/>
+                <technologia idTechnologii="6"/>
+                <technologia idTechnologii="8"/>
+                <technologia idTechnologii="10"/>
+            </technologieUżywane>
+        </gra>
+    </gry>
+</bibliotekaGier>
