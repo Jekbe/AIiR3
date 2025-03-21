@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BibliotekaFilmow>
+    <Aktorzy>
+        <Aktor Id="1">
+            <Imie>Johnny</Imie>
+            <Nazwisko>Depp</Nazwisko>
+            <Plec>M</Plec>
+            <DataUrodzenia>09-06-1963</DataUrodzenia>
+        </Aktor>
+        <Aktor Id="2">
+            <Imie>Geoffrey</Imie>
+            <Nazwisko>Rush</Nazwisko>
+            <Plec>M</Plec>
+            <DataUrodzenia>06-07-1951</DataUrodzenia>
+        </Aktor>
+        <Aktor Id="3">
+            <Imie>Orlando</Imie>
+            <Nazwisko>Bloom</Nazwisko>
+            <Plec>M</Plec>
+            <DataUrodzenia>13-01-1977</DataUrodzenia>
+        </Aktor>
+        <Aktor Id="4">
+            <Imie>Keira</Imie>
+            <Nazwisko>Knightley</Nazwisko>
+            <Plec>K</Plec>
+            <DataUrodzenia>26-03-1985</DataUrodzenia>
+        </Aktor>
+        <Aktor Id="5">
+            <Imie>Jack</Imie>
+            <Nazwisko>Davenport</Nazwisko>
+            <Plec>M</Plec>
+            <DataUrodzenia>01-03-1973</DataUrodzenia>
+        </Aktor>
+        <Aktor Id="6">
+            <Imie>Winona</Imie>
+            <Nazwisko>Ryder</Nazwisko>
+            <Plec>K</Plec>
+            <DataUrodzenia>29-10-1971</DataUrodzenia>
+        </Aktor>
+        <Aktor Id="7">
+            <Imie>Dianne</Imie>
+            <Nazwisko>Wiest</Nazwisko>
+            <Plec>K</Plec>
+            <DataUrodzenia>28-03-1948</DataUrodzenia>
+        </Aktor>
+        <Aktor Id="8">
+            <Imie>Anthony</Imie>
+            <Nazwisko>Michael Hall</Nazwisko>
+            <Plec>M</Plec>
+            <DataUrodzenia>14-04-1968</DataUrodzenia>
+        </Aktor>
+        <Aktor Id="9">
+            <Imie>Ashton</Imie>
+            <Nazwisko>Kutcher</Nazwisko>
+            <Plec>M</Plec>
+            <DataUrodzenia>07-02-1978</DataUrodzenia>
+        </Aktor>
+        <Aktor Id="10">
+            <Imie>Amy</Imie>
+            <Nazwisko>Smart</Nazwisko>
+            <Plec>K</Plec>
+            <DataUrodzenia>26-03-1976</DataUrodzenia>
+        </Aktor>
+        <Aktor Id="11">
+            <Imie>Eric</Imie>
+            <Nazwisko>Stoltz</Nazwisko>
+            <Plec>M</Plec>
+            <DataUrodzenia>30-09-1961</DataUrodzenia>
+        </Aktor>
+        <Aktor Id="12">
+            <Imie>William Lee</Imie>
+            <Nazwisko>Scott</Nazwisko>
+            <Plec>M</Plec>
+            <DataUrodzenia>06-07-1973</DataUrodzenia>
+        </Aktor>
+        <Aktor Id="13">
+            <Imie>Elden</Imie>
+            <Nazwisko>Henson</Nazwisko>
+            <Plec>M</Plec>
+            <DataUrodzenia>30-08-1977</DataUrodzenia>
+        </Aktor>
+        <Aktor Id="14">
+            <Imie>Kathy</Imie>
+            <Nazwisko>Baker</Nazwisko>
+            <Plec>K</Plec>
+            <DataUrodzenia>08-06-1950</DataUrodzenia>
+        </Aktor>
+    </Aktorzy>
+
+    <Filmy>
+        <Film>
+            <Nazwa>Klątwa Czarnej Perły</Nazwa>
+            <RokPremiery>2003</RokPremiery>
+            <gatunki>
+                <gatunek>Fantasy</gatunek>
+                <gatunek>Przygodowy</gatunek>
+            </gatunki>
+            <Obsada>
+                <Rola IdAktora="1">Kapitan Jack Sparrow</Rola>
+                <Rola IdAktora="2">Kapitan Hector Barbossa</Rola>
+                <Rola IdAktora="3">Will Turner</Rola>
+                <Rola IdAktora="4">Elizabeth Swann</Rola>
+                <Rola IdAktora="5">Komodor James Norrington</Rola>
+            </Obsada>
+        </Film>
+        <Film>
+            <Nazwa>Edward Nożycoręki</Nazwa>
+            <RokPremiery>1990</RokPremiery>
+            <gatunki>
+                <gatunek>Fantasy</gatunek>
+                <gatunek>Romans</gatunek>
+                <gatunek>Dramat</gatunek>
+            </gatunki>
+            <Obsada>
+                <Rola IdAktora="1">Edward Nożycoręki</Rola>
+                <Rola IdAktora="6">Kim Boggs</Rola>
+                <Rola IdAktora="7">Peg Boggs</Rola>
+                <Rola IdAktora="8">Jim</Rola>
+                <Rola IdAktora="14">Joyce Monroe</Rola>
+            </Obsada>
+        </Film>
+        <Film>
+            <Nazwa>Efekt motyla</Nazwa>
+            <RokPremiery>2004</RokPremiery>
+            <gatunki>
+                <gatunek>Thriller</gatunek>
+                <gatunek>Science-Fiction</gatunek>
+            </gatunki>
+            <Obsada>
+                <Rola IdAktora="9">Evan Treborn</Rola>
+                <Rola IdAktora="10">Kayleigh Miller</Rola>
+                <Rola IdAktora="11">George Miller</Rola>
+                <Rola IdAktora="12">Tommy</Rola>
+                <Rola IdAktora="13">Lenny</Rola>
+            </Obsada>
+        </Film>
+    </Filmy>
+</BibliotekaFilmow>
