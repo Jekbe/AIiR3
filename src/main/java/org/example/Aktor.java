@@ -1,19 +1,8 @@
 package org.example;
 
-public class Aktor {
-    int id;
-    String imie;
-    String nazwisko;
-    String plec;
-    String dataUrodzenia;
+import java.util.Date;
 
-    public Aktor(int id, String imie, String nazwisko, String plec, String dataUrodzenia) {
-        this.id = id;
-        this.imie = imie;
-        this.nazwisko = nazwisko;
-        this.plec = plec;
-        this.dataUrodzenia = dataUrodzenia;
-    }
+public record Aktor(int id, String imie, String nazwisko, String plec, Date dataUrodzenia) {
 
     @Override
     public String toString() {
