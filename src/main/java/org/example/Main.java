@@ -31,7 +31,7 @@ public class Main {
                 String imie = aktorElement.getElementsByTagName("Imie").item(0).getTextContent();
                 String nazwisko = aktorElement.getElementsByTagName("Nazwisko").item(0).getTextContent();
                 String plec = aktorElement.getElementsByTagName("Plec").item(0).getTextContent();
-                Date dataUrodzenia = null;
+                Date dataUrodzenia;
                 try {
                     dataUrodzenia = new SimpleDateFormat("dd-MM-yyyy").parse(aktorElement.getElementsByTagName("DataUrodzenia").item(0).getTextContent());
                 } catch (ParseException e) {
